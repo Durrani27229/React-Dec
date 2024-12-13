@@ -1,7 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
 * {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.mg-20{
+  margin: 0px 70px !important;
+}
+
+
+
+.font-mulish{
+  font-family: "Mulish", sans-serif;
+}
+.font-play{
+  font-family: "Playfair Display", serif;
+}
+.font-sans{
+  font-family: "Instrument Sans", serif;
+}
 
 
 .nav-left-btn{
@@ -10,7 +29,7 @@
   background-color: #3A3A3A !important;
   color: #FFFDF9 !important;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 20px !important;
 }
 
 
@@ -29,6 +48,9 @@
 }
 .fs-22{
   font-size: 22px;
+}
+.fs-24{
+  font-size: 24px;
 }
 .fs-26{
   font-size: 26px;
@@ -83,33 +105,41 @@
 
 /* Section 1 */
 
-.section1-left{
+
+.sec1-top{
   background-color: #F4E2E1;
-  height: 720px;
+  border-top-left-radius: 20px;
+  height: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+.sec1-bottom{
+  background-color: #A2D2FF;
+  border-bottom-left-radius: 20px;
+  height: 120px;
+  padding: 20px 60px;
+}
+.sec1-col2{
+  background-image: url('../public/Section1Lady.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 720px;
 }
 
-.sec1-one{
-  background-color: #F4E2E1;
-  height: 618px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  /* margin-left: 60px; */
+.section1{
+  height: 720px;
 }
-.sec1-two{
-  background-color: #A2D2FF;
-  /* padding: 5px 20px; */
-  /* margin-left: 20px;
-  margin-right: 20px; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
+
+
+
+
+
 
 .sec1-btn{
   width: 148px;
@@ -127,13 +157,6 @@
 
 
 
-.section1-right{
-  height: 720px;
-}
-.section1-right img{
-  height: 100%;
-  width: 100%;
-}
 
 
 
@@ -141,28 +164,49 @@
 /* Section 2 */
 
 
+.sec2-col1{
+  background-image: url('../public/Mask.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 850px;
+}
+
+.sec2-top{
+  display: flex;
+  flex-direction: column;
+  /* height: 60%;  */
+  justify-content: center;
+  gap: 30px;
+}
+.sec2-bottom{
+  background-color: white;
+  margin-top: 33px;
+  height: 37%;
+  width: 95%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 20px 42px;
+  margin-left: -10px;
+}
+
+
+
 .section2-color{
 
   background-color: #C5E5E0;
 }
-.sec2-img img{
-  height: 720px;
-  width: 100%;
- 
-}
 
-.section2-one{
-  /* height: 55%; */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
+
+
 .section2-btn{
   width: 215px;
   height: 44px;
   background-color: #FFFFFF;
   font-size: 22px;  
-  font-weight: 700;
+  font-weight: 500;
+  border: none;
+  margin-left: -12px;
 }
 .section2-btn2{
   max-width: 338px;
@@ -174,31 +218,24 @@
   font-size: 18px;
   font-weight: 500;
 }
-.section2-two{
-  border-top-right-radius: 10px;
-  /* width: 849px;   */
-  /* height: 310px; */
-  background-color: white;
-  color: #000000;
-  padding-left: 38px;
-  margin-left: -23px;
-}
+
 
 
 .sec2-cart{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 50px;
   width: 100%;
   /* height: 235px; */
   margin-bottom: 10px;
   flex-wrap: wrap;
+  margin-top: 25px;
 }
 
 .visa-cart{
-  width: 280px;
-  height: 200px;
+  width: 350px;
+  height: 250px;
   background-color: #FFFFFF;
   border-radius: 10px;
   color: #000000;

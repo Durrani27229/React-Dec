@@ -11,8 +11,8 @@ const Section8 = () => {
         <Col>
           <div className='section8'>
               <div className='section8-start'>
-                <p className='fs-32 fw-700' >Blogs</p>
-                <button className='sec6-btn1'>Let's Talk</button>
+                <p className='fs-32 fw-700 font-play' >Blogs</p>
+                <button className='sec6-btn1 font-sans'>Let's Talk</button>
               </div>
               <div className='sec8-cart'>
                   <div className="blog-cart">
@@ -20,9 +20,9 @@ const Section8 = () => {
                       <img src="../../public/blog1.png" alt="" />
                     </div>
                     <div className='blog-content'>
-                      <p className='fs-20 fw-700'>Navigating Immigration <br /> Laws: A Guide for Employers</p>
+                      <p className='fs-20 fw-700 font-play'>Navigating Immigration <br /> Laws: A Guide for Employers</p>
                       <div className='sec8-link'>
-                      <p> Learn More   </p>
+                      <p className="font-mulish"> Learn More   </p>
                       <p><FaArrowRight className='fs-12' /></p>
                       </div>
                     </div>
@@ -32,9 +32,9 @@ const Section8 = () => {
                       <img src="../../public/blog2.png" alt="" />
                     </div>
                     <div className='blog-content'>
-                      <p className='fs-20 fw-700'>Top Benefits of Outsourcing <br />Immigration Processes</p>
+                      <p className='fs-20 fw-700 font-play'>Top Benefits of Outsourcing <br />Immigration Processes</p>
                       <div className='sec8-link'>
-                      <p> Learn More   </p>
+                      <p className="font-mulish"> Learn More   </p>
                       <p><FaArrowRight className='fs-12' /></p>
                       </div>
                     </div>
@@ -44,9 +44,9 @@ const Section8 = () => {
                       <img src="../../public/blog3.png" alt="" />
                     </div>
                     <div className='blog-content'>
-                      <p className='fs-20 fw-700'>Simplifying Global Recruitment with Immigration </p>
+                      <p className='fs-20 fw-700 font-play'>Simplifying Global Recruitment with Immigration </p>
                       <div className='sec8-link'>
-                      <p> Learn More   </p>
+                      <p className="font-mulish"> Learn More   </p>
                       <p><FaArrowRight className='fs-12' /></p>
                       </div>
                     </div>
@@ -56,9 +56,9 @@ const Section8 = () => {
                       <img src="../../public/blog4.png" alt="" />
                     </div>
                     <div className='blog-content'>
-                      <p className='fs-20 fw-700'>The Importance of Compliance <br /> in Hiring</p>
+                      <p className='fs-20 fw-700 font-play'>The Importance of Compliance <br /> in Hiring</p>
                       <div className='sec8-link'>
-                      <p> Learn More   </p>
+                      <p className="font-mulish"> Learn More   </p>
                       <p><FaArrowRight className='fs-12' /></p>
                       </div>
                     </div>

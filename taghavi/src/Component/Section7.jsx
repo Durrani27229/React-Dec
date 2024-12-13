@@ -10,7 +10,7 @@ const Section7 = () => {
         <Col>
             <div className='section7'>
                <div>
-                    <p className='fs-48 fw-700 text-center lh-1'>Dedicated. Considerate. <br />
+                    <p className='fs-48 fw-700 text-center lh-1 font-play'>Dedicated. Considerate. <br />
                     Recognized.</p>
                </div>
                <div className='image-group'>

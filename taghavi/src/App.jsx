@@ -23,6 +23,7 @@ function App() {
 
   return (
     <>
+      <div  className='mg-20'>
       <Navbar />
       <Section1 />
       <Section2 />
@@ -35,6 +36,7 @@ function App() {
       <Section9 />
       <Section10 />
       <Footer />
+      </div>
     </>
   )
 }

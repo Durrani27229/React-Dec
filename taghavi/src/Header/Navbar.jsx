@@ -8,7 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function NavScrollExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
+      <Container fluid>
         <Navbar.Brand href="#"><img
               src="../../public/Logo.png"
               width="227"
@@ -19,7 +19,7 @@ function NavScrollExample() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="ms-auto my-2 my-lg-0 fs-20 gap-3"
+            className="m-auto my-2 my-lg-0 fs-22 gap-3"
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
