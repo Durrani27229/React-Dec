@@ -7,9 +7,9 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="md" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="#"><img
+        <Navbar.Brand className='navbar-logo' href="#"><img
               src="../../public/Logo.png"
               width="227"
               height="64"
@@ -23,10 +23,10 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">For Individuals</Nav.Link>
-            <Nav.Link href="#action2">For Employers</Nav.Link>
-            <Nav.Link href="#action2">News & Report</Nav.Link>
-            <Nav.Link href="#action2">About Us</Nav.Link>
+            <Nav.Link className='nav-item' href="#action1">For Individuals</Nav.Link>
+            <Nav.Link className='nav-item' href="#action2">For Employers</Nav.Link>
+            <Nav.Link className='nav-item' href="#action2">News & Report</Nav.Link>
+            <Nav.Link className='nav-item' href="#action2">About Us</Nav.Link>
           </Nav>
         <Button className='nav-left-btn ms-5'>Schedule A Free Case Evalution</Button>
           

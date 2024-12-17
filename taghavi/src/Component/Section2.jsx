@@ -59,7 +59,7 @@ const Section2 = () => {
                     <button className='section2-btn2 ms-3 font-sans'>Schedule A Free Case Evalution</button>
                 </div>
             <div className="sec2-bottom">
-            <p className='fs-28 font-play'>Taghavi Help for individuals</p>
+            <p className='fs-28 font-play sec2-bottom-head'>Taghavi Help for individuals</p>
                     <div className='d-flex justify-content-between '>
                         <p className='fs-20 lh-2 font-mulish sec2-bottom-content'>Understanding the expansion of Parole in Place (PIP)</p>
                         <p><FaArrowRight /></p>
